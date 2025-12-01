@@ -1,0 +1,24 @@
+{
+  "name": "code-review",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ronak-Malik/Ai-Powered-Code-Reviewer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Ronak-Malik/Ai-Powered-Code-Reviewer/issues"
+  },
+  "homepage": "https://github.com/Ronak-Malik/Ai-Powered-Code-Reviewer#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

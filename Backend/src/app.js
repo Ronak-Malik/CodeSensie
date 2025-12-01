@@ -1,15 +1,16 @@
 const express = require('express');
-const aiRoutes = require('./routes/ai.routes');
+const aiRoutes = require('./routes/ai.routes')
 const cors = require('cors')
 
-const app=express()
+const app = express()
 
 app.use(cors())
 
+
 app.use(express.json())
 
-app.get('/',(req, res) => {
-    res.send('hello ronak server is running ')
+app.get('/', (req, res) => {
+    res.send('Hello ronak server is runing fine ')
 })
 
 app.use('/ai', aiRoutes)
